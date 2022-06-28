@@ -1,0 +1,258 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body {
+  font-family: 'Lato';
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+nav .brand-logo {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 12px; 
+}
+
+.nav-wrapper {
+  padding: 0 50px;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.sidenav-trigger {
+  color: white;
+}
+
+.parallax-container {
+  min-height: 380px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+
+.section-intro {
+  height: 100%;
+  width: 100%;
+}
+
+.header {
+  margin-top: 10%;
+  text-shadow: 1px 1px 5px #808080;
+}
+
+.header-subtitle {
+  margin-top: 1%;
+  font-size: 1.5em;
+  text-shadow: 1px 1px 5px #808080;
+  font-weight: 400;
+}
+
+.separator {
+  background-color: black;
+  width: 80%;
+  height: 2px;
+  margin: 0 auto;
+  margin-top: 5%;
+  margin-bottom: 0%;
+}
+
+.col-sezioni {
+  margin-top: 6%;
+  margin-bottom: 50px;
+}
+
+.spaziatura-immagini {
+  margin-top: 10%;
+}
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .nav-wrapper {
+    padding: 0 10px;
+  }
+
+  .header {
+    margin-top: 25%;
+  }
+
+  .separator {
+    margin-top: 14%;
+  }
+
+  .col-sezioni {
+    margin-top: 17%;
+  }
+
+  .spaziatura-immagini {
+    margin-top: 25%;
+  }
+
+}
+
+.col-servizi {
+  margin-top: 45px;
+  margin-bottom: 50px;
+}
+
+.col-presentazione {
+  margin-top: 55px;
+  margin-bottom: 40px;
+}
+
+.presentation-color {
+  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.col-social {
+  margin-top: 0px;
+  margin-bottom: 90px;
+}
+
+.col-social-footer {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+.registrazione-icon {
+  font-size: 4em;
+  margin-top: 50px;
+  color: white;
+}
+
+.btn-registrazione {
+  width: 220px;
+  background-color: #DB5A42;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+#testoHeader {
+  font-size: 30px;
+}
+
+.contact-icon {
+  font-size: 4em;
+  margin-top: 40px;
+}
+
+.btn-contattaci {
+  width: 220px;
+  background-color:  #7DDF64;
+}
+
+#connect {
+  text-align: right;
+}
+
+.brand-logo {
+  font-family: 'Amaranth', sans-serif; 
+}
+
+.footer-icon {
+  margin-top: 0%;
+  margin-bottom: 0%;
+  margin-left: 5px;
+}
+
+.footer-text {
+  margin-top: 0%;
+  margin-bottom: 0%;
+}
+
+.social-icon:hover {
+  color: black;
+}
+
+.social-icon {
+  color: white;
+}
+
+.header-subtitle-2 {
+  margin-top: 1%;
+  font-size: 1.6em;
+  font-weight: 500;
+  text-shadow: 1px 1px 5px #808080;
+}
+
+.icon-step {
+  color: #ef9a9a;
+}
+
+.example {
+  font-style: italic;
+}
+
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+/* Instagram */
+.fa-instagram {
+  background: #e1306c;
+  color: black;
+}
+
+/* Whatsapp */
+.fa-whatsapp {
+  background: #25d366;
+  color: black;
+}
+
+/* Mail */
+.fa-envelope {
+  background: #ff0000;
+  color: black;
+}
